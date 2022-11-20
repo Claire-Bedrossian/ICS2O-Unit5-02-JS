@@ -24,13 +24,13 @@ const negativeRandomNum = Math.floor(Math.random() * 10) + 1
  * This function displays a randomly generated positive or negative number.
  */
 function myButtonClicked() {
-  buttonOnChecked = document.getElementById('flash1').checked;
-alert(buttonOnChecked);
+  buttonOnChecked = document.getElementById("flash1").checked
+  alert(buttonOnChecked)
   if (buttonOnChecked == true) {
     document.getElementById("radio-button-value").innerHTML =
-    "<p>Value is: On</p>"
+      "<p>Value is: On</p>"
   } else {
     document.getElementById("radio-button-value").innerHTML =
-    "<p>Value is: Off</p>"
+      "<p>Value is: Off</p>"
   }
 }
